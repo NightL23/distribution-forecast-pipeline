@@ -1,0 +1,26 @@
+{
+  "trained_at": "2026-05-12T22:11:16.270462-07:00",
+  "n_target_per_provider": 100,
+  "models_used": {
+    "openai": "gpt-4o-mini",
+    "anthropic": "claude-haiku-4-5-20251001",
+    "gemini": "gemini-2.5-flash-lite"
+  },
+  "results": {
+    "openai": {
+      "status": "ok",
+      "n_personas": 100,
+      "file": "openai_agents.json"
+    },
+    "anthropic": {
+      "status": "ok",
+      "n_personas": 100,
+      "file": "anthropic_agents.json"
+    },
+    "gemini": {
+      "status": "ok",
+      "n_personas": 100,
+      "file": "gemini_agents.json"
+    }
+  }
+}
